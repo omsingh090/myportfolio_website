@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140a25"/>
+      <stop offset="100%" stop-color="#0b0614"/>
+    </linearGradient>
+    <linearGradient id="purple1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#aa42ff"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" rx="16" fill="url(#bg1)" stroke="#392455" stroke-width="2"/>
+  <circle cx="120" cy="175" r="45" fill="none" stroke="#aa42ff" stroke-width="3" stroke-dasharray="6,4"/>
+  <circle cx="300" cy="110" r="35" fill="none" stroke="#00e5ff" stroke-width="3"/>
+  <circle cx="300" cy="240" r="35" fill="none" stroke="#aa42ff" stroke-width="3"/>
+  <circle cx="480" cy="175" r="50" fill="none" stroke="url(#purple1)" stroke-width="3"/>
+  <!-- connections -->
+  <line x1="165" y1="175" x2="265" y2="110" stroke="#7f40ff" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="165" y1="175" x2="265" y2="240" stroke="#7f40ff" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="335" y1="110" x2="430" y2="175" stroke="#00e5ff" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="335" y1="240" x2="430" y2="175" stroke="#aa42ff" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- labels -->
+  <text x="120" y="180" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Docs / Ingestion</text>
+  <text x="300" y="115" fill="#00e5ff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Qdrant Vector DB</text>
+  <text x="300" y="245" fill="#aa42ff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">LangGraph Router</text>
+  <text x="480" y="172" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Grounded</text>
+  <text x="480" y="190" fill="#00e5ff" font-family="sans-serif" font-size="12" text-anchor="middle">RAG Answer</text>
+  <text x="30" y="45" fill="#aa42ff" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="2">ENTERPRISE KNOWLEDGE PLATFORM</text>
+</svg>

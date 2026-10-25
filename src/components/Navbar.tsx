@@ -37,20 +37,22 @@ const Navbar = () => {
     });
     window.addEventListener("resize", () => {
       ScrollSmoother.refresh(true);
+      ScrollTrigger.refresh();
     });
+    ScrollTrigger.refresh();
   }, []);
   return (
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+          OM SINGH
         </a>
         <a
-          href="mailto:example@mail.com"
+          href="mailto:swamsingh09@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          swamsingh09@gmail.com
         </a>
         <ul>
           <li>

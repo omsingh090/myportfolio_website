@@ -29,6 +29,14 @@
   line-height: 36px;
   letter-spacing: 1px;
 }
+.about-me p.about-sub {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #cfcacf;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
 
 @media only screen and (min-width: 600px) {
   .about-section {
@@ -62,10 +70,18 @@
     font-size: 1.9vw;
     line-height: 2.3vw;
   }
+  .about-me p.about-sub {
+    font-size: 1.05vw;
+    line-height: 1.65vw;
+  }
 }
 @media only screen and (min-width: 1950px) {
   .about-me p {
     font-size: 2.5rem;
     line-height: 2.7rem;
+  }
+  .about-me p.about-sub {
+    font-size: 1.25rem;
+    line-height: 1.9rem;
   }
 }
